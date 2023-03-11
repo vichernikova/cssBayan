@@ -4,47 +4,75 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<title>cssBayan</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="variables.css" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>cssBayan</h1>
-		
 		<div class="accordion">
-			<details open>
-				<summary>When a part of the project is done by new trainee developer</summary>
-				<div>
-					<img src="./images/1.jpg" alt="mem"/>
-				</div>
-			</details>
-			
-			<details>
-				<summary>A full stack developer at work</summary>
-				<div>
-					<img src="./images/2.jpg" alt="mem"/>
-				</div>
-			</details>
-			
-			<details>
-				<summary>StackOverflow</summary>
-				<div>
-					<img src="./images/3.jpg" alt="mem"/>
-				</div>
-			</details>
-
-			<details>
-				<summary>When you opened F12 in the browser</summary>
-				<div>
-					<img src="./images/4.jpg" alt="mem"/>
-				</div>
-			</details>
-			
-			<details>
-				<summary>Ctrl + Z</summary>
-				<div>
-					<img src="./images/5.jpg" alt="mem"/>
-				</div>
-			</details>
-
+			<h1 class="accordion--title" aria-label="cssBayan">
+				<span aria-hidden="true" class="letter1">C</span>
+				<span aria-hidden="true" class="letter2">S</span>
+				<span aria-hidden="true" class="letter3">S</span>
+				<span aria-hidden="true" class="letter4">B</span>
+				<span aria-hidden="true" class="letter5">A</span>
+				<span aria-hidden="true" class="letter6">Y</span>
+				<span aria-hidden="true" class="letter7">A</span>
+				<span aria-hidden="true" class="letter8">N</span>
+			</h1>
+			<div class="accordion__item">
+				<input class="accordion__input" id="meme1" type="radio" name="meme" hidden checked>
+				<label for="meme1" class="accordion__label">
+					<div class="accordion__item--title">
+					<p>When a part of the project is done by new trainee developer</p>
+					<img class="chevron" src="./images/svg/chevron-right.svg" alt="chevron">
+					</div>
+					<img class="accordion__img" src="./images/jpg/1.jpg" alt="meme">
+				</label>
+			</div>
+			<div class="accordion__item">
+				<input class="accordion__input" id="meme2" type="radio" name="meme" hidden>
+				<label for="meme2" class="accordion__label">
+					<div class="accordion__item--title">
+					<span>A full stack developer at work</span>
+					<img class="chevron" src="./images/svg/chevron-right.svg" alt="chevron">
+					</div>
+					<img class="accordion__img" src="./images/jpg/2.jpg" alt="meme">
+				</label>
+			</div>
+			<div class="accordion__item">
+				<input class="accordion__input" id="meme3" type="radio" name="meme" hidden >
+				<label for="meme3" class="accordion__label">
+					<div class="accordion__item--title">
+					<span>Uh...</span>
+					<img class="chevron" src="./images/svg/chevron-right.svg" alt="chevron">
+					</div>
+					<img class="accordion__img" src="./images/jpg/3.jpg" alt="meme">
+				</label>
+			</div>
+			<div class="accordion__item">
+				<input class="accordion__input" id="meme4" type="radio" name="meme" hidden >
+				<label for="meme4" class="accordion__label">
+					<div class="accordion__item--title">
+					<span>When you opened F12 in the browser</span>
+					<img class="chevron" src="./images/svg/chevron-right.svg" alt="chevron">
+					</div>
+					<img class="accordion__img" src="./images/jpg/4.jpg" alt="meme">
+				</label>
+			</div>
+			<div class="accordion__item">
+				<input class="accordion__input" id="meme5" type="radio" name="meme" hidden >
+				<label for="meme5" class="accordion__label">
+					<div class="accordion__item--title">
+					<span>Ctrl + Z!</span>
+					<img class="chevron" src="./images/svg/chevron-right.svg" alt="chevron">
+					</div>
+					<img class="accordion__img" src="./images/jpg/5.jpg" alt="meme">
+				</label>
+			</div>
 		</div>
 	</body>
 </html>
