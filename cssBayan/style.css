@@ -1,0 +1,196 @@
+body {
+	font: 400 16px 'New Tegomin', serif;
+	background-color: var(--background);
+	overflow-x:hidden;
+}
+
+.accordion {
+	max-width: 95%;
+	margin: 2em auto;
+}
+
+.accordion--title {
+	font-family: "Archivo Black", "Archivo", sans-serif;
+	font-size: 3em;
+	padding: 1em 0;
+	text-align: center;
+	width: auto;
+}
+
+.accordion--title span {
+	position: relative;
+}
+
+.letter1 {
+	color: #5362F6;
+	text-shadow: 0.25px 0.25px #E485F8, 0.5px 0.5px #E485F8, 0.75px 0.75px #E485F8, 1px 1px #E485F8, 1.25px 1.25px #E485F8, 1.5px 1.5px #E485F8, 1.75px 1.75px #E485F8, 2px 2px #E485F8, 2.25px 2.25px #E485F8, 2.5px 2.5px #E485F8, 2.75px 2.75px #E485F8, 3px 3px #E485F8, 3.25px 3.25px #E485F8, 3.5px 3.5px #E485F8, 3.75px 3.75px #E485F8, 4px 4px #E485F8, 4.25px 4.25px #E485F8, 4.5px 4.5px #E485F8, 4.75px 4.75px #E485F8, 5px 5px #E485F8, 5.25px 5.25px #E485F8, 5.5px 5.5px #E485F8, 5.75px 5.75px #E485F8, 6px 6px #E485F8;
+	animation: scatter 1.75s infinite;
+}
+
+.letter2,
+.letter6 {
+	color: #FFD913;
+	text-shadow: 0.25px 0.25px #6EC0A9, 0.5px 0.5px #6EC0A9, 0.75px 0.75px #6EC0A9, 1px 1px #6EC0A9, 1.25px 1.25px #6EC0A9, 1.5px 1.5px #6EC0A9, 1.75px 1.75px #6EC0A9, 2px 2px #6EC0A9, 2.25px 2.25px #6EC0A9, 2.5px 2.5px #6EC0A9, 2.75px 2.75px #6EC0A9, 3px 3px #6EC0A9, 3.25px 3.25px #6EC0A9, 3.5px 3.5px #6EC0A9, 3.75px 3.75px #6EC0A9, 4px 4px #6EC0A9, 4.25px 4.25px #6EC0A9, 4.5px 4.5px #6EC0A9, 4.75px 4.75px #6EC0A9, 5px 5px #6EC0A9, 5.25px 5.25px #6EC0A9, 5.5px 5.5px #6EC0A9, 5.75px 5.75px #6EC0A9, 6px 6px #6EC0A9;
+	animation: scatter 1.75s infinite 0.15s;
+}
+
+.letter3,
+.letter7 {
+	color: #ED625C;
+	text-shadow: 0.25px 0.25px #F2A063, 0.5px 0.5px #F2A063, 0.75px 0.75px #F2A063, 1px 1px #F2A063, 1.25px 1.25px #F2A063, 1.5px 1.5px #F2A063, 1.75px 1.75px #F2A063, 2px 2px #F2A063, 2.25px 2.25px #F2A063, 2.5px 2.5px #F2A063, 2.75px 2.75px #F2A063, 3px 3px #F2A063, 3.25px 3.25px #F2A063, 3.5px 3.5px #F2A063, 3.75px 3.75px #F2A063, 4px 4px #F2A063, 4.25px 4.25px #F2A063, 4.5px 4.5px #F2A063, 4.75px 4.75px #F2A063, 5px 5px #F2A063, 5.25px 5.25px #F2A063, 5.5px 5.5px #F2A063, 5.75px 5.75px #F2A063, 6px 6px #F2A063;
+	animation: scatter 1.75s infinite 0.25s;
+}
+
+.letter4,
+.letter8 {
+	color: #555BFF;
+	text-shadow: 0.25px 0.25px #E485F8, 0.5px 0.5px #E485F8, 0.75px 0.75px #E485F8, 1px 1px #E485F8, 1.25px 1.25px #E485F8, 1.5px 1.5px #E485F8, 1.75px 1.75px #E485F8, 2px 2px #E485F8, 2.25px 2.25px #E485F8, 2.5px 2.5px #E485F8, 2.75px 2.75px #E485F8, 3px 3px #E485F8, 3.25px 3.25px #E485F8, 3.5px 3.5px #E485F8, 3.75px 3.75px #E485F8, 4px 4px #E485F8, 4.25px 4.25px #E485F8, 4.5px 4.5px #E485F8, 4.75px 4.75px #E485F8, 5px 5px #E485F8, 5.25px 5.25px #E485F8, 5.5px 5.5px #E485F8, 5.75px 5.75px #E485F8, 6px 6px #E485F8;
+	animation: scatter 1.75s infinite 0.3s;
+}
+
+.letter5 {
+	color: #FF9C55;
+	text-shadow: 0.25px 0.25px #FF5555, 0.5px 0.5px #FF5555, 0.75px 0.75px #FF5555, 1px 1px #FF5555, 1.25px 1.25px #FF5555, 1.5px 1.5px #FF5555, 1.75px 1.75px #FF5555, 2px 2px #FF5555, 2.25px 2.25px #FF5555, 2.5px 2.5px #FF5555, 2.75px 2.75px #FF5555, 3px 3px #FF5555, 3.25px 3.25px #FF5555, 3.5px 3.5px #FF5555, 3.75px 3.75px #FF5555, 4px 4px #FF5555, 4.25px 4.25px #FF5555, 4.5px 4.5px #FF5555, 4.75px 4.75px #FF5555, 5px 5px #FF5555, 5.25px 5.25px #FF5555, 5.5px 5.5px #FF5555, 5.75px 5.75px #FF5555, 6px 6px #FF5555;
+	animation: scatter 1.75s infinite 0.4s;
+}
+
+@keyframes scatter {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -10px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+.accordion__item {
+	padding: 0.5em;
+	border-bottom: 1px solid var(--grey);
+}
+
+.accordion__label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	margin: 0.5em 0;
+}
+
+.accordion__item--text {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordion__item--title {
+	font-size: 1.5em;
+	width: 100%;
+	padding-right: .5em;
+}
+
+.chevron {
+	display: block;
+	width: 2em;
+	transition: all 0.5s ease-in-out;
+}
+
+.accordion__img {
+	width: auto;
+	height: 0;
+	transition: height 0.6s ease-in;
+}
+
+input[type='radio']:checked ~ label .accordion__img {
+	height:auto;
+	margin-top: 1em;
+}
+
+.accordion__input:checked ~ label .chevron {
+	transform: rotate(90deg);
+}
+
+
+@media (hover: hover) {
+	.accordion__item:hover .chevron {
+		transform: rotate(90deg);
+	}
+
+	.accordion__item:hover .accordion__img {
+		height: 30vw;
+		margin-top: 0.8em;
+	}
+
+	.accordion__label {
+		color: var(--green);
+	}
+
+	.accordion:hover .accordion__item--title,
+	input[type='radio']:checked ~ label .accordion__item--title {
+		color: var(--black);
+	}
+
+	.chevron {
+		display: none;
+	}
+
+	.accordion:hover .chevron {
+		display: block;
+	}
+	
+	@media screen and (max-width: 992px) {
+		.chevron {
+			display: block;
+		}
+	}
+
+	@media screen and (min-width: 820px) {
+		.accordion__item:hover .accordion__img {
+			height: 20vw;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1280px) {
+	.accordion {
+		max-width: 70%;
+	}
+
+	input[type='radio']:checked~label .accordion__img {
+		height: 35vw;
+	}
+
+	.chevron {
+		width: 1.5em;
+	}
+}
+
+
+@media screen and (max-width: 820px) {
+	.accordion {
+		max-width: 55%;
+	}
+
+	.accordion__label {
+		font-size: 1em;
+	}
+	
+	.accordion__item--title {
+		font-size: 1.2em;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	.accordion {
+		max-width: 65%;
+	}
+	
+	.accordion--title {
+		font-size: 1.7em;
+	}
+}
