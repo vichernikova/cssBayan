@@ -89,6 +89,7 @@ body {
 .accordion__item--title {
 	font-size: 1.5em;
 	width: 100%;
+	padding-right: .5em;
 }
 
 .chevron {
